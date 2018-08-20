@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Main page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="KatsiarynaLiaonova" />
+	<!-- Google Webfonts -->
+	<link href="https://fonts.googleapis.com/css?family=Sanchez:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Teko:400,500,600" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script>$(document).ready(function(){
+			$(".owl-carousel").owlCarousel();
+		  });</script>
+	<script>
+			$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+	nav:true,
+	items: 1,
+	dots: true,
+	center: true,
+    });
+    </script>
+	</head>
+
+	<body>
+		
+	<header>
+		<nav class="navbar">
+			<div></div>
+			<div class="navbar-logo"> 
+				<a class="logo" href="index.html">Your Logo</a>
+			</div>
+			<div class="navbar-menu">
+				<ul class="navbar-menu-list">
+					<li class="active"><a href="index.html"><span>Home</span></a></li>
+					<li><a href="portfolio.html"><span>Portfolio</span></a></li>
+					<li><a href="about.html"><span>About</span></a></li>
+					<li><a href="contact.html"><span>Contact</span></a></li>
+				</ul>
+			</div>
+			<div class="nav-blog"><button class="blog"><span>Blog</span></button></div>
+			<div class="navbar-search">
+				<input class="search-input" type="text" placeholder="Search">
+				<button class="search-button" type="button"><img class="search-image" alt="image" src="data:image/jpeg;base64,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"></button>
+			</div>
+			<div></div>
+		</nav>
+	</header>
+
+
+		<div class="owl-carousel owl-theme">
+		    <div class="item" style="background-image:url(img/image1.jpg)">
+				<div class="item-container"><h1>GOOD DESIGN IS A GOOD BUSINESS</h1>
+				<h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
+				<button type="button" class="button-learn-more">LEARN MORE</button></h2>
+			    </div>
+			</div>
+		    <div class="item" style="background-image:url(img/image1.jpg)">
+				<div class="item-container"><h1>GOOD DESIGN IS A GOOD BUSINESS</h1>
+					<h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
+					<button type="button" class="button-learn-more">LEARN MORE</button></h2>
+					</div>
+				</div>
+		    <div class="item" style="background-image:url(img/image1.jpg)">
+				<div class="item-container"><h1>GOOD DESIGN IS A GOOD BUSINESS</h1>
+					<h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
+					<button type="button" class="button-learn-more">LEARN MORE</button></h2>
+					</div>
+				</div>
+		    <div class="item" style="background-image:url(img/image1.jpg)">
+				<div class="item-container"><h1>GOOD DESIGN IS A GOOD BUSINESS</h1>
+					<h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
+					<button type="button" class="button-learn-more">LEARN MORE</button></h2>
+					</div>
+				</div>
+		</div>
+
+
+	 <div class="services"><ul class="list-of-services">
+        <li class="service-one">
+			<div class="service-container">
+			<img class="service-image" alt="image" src="http://hide-info.pro/uploads/posts/2017-09/1506754932_kak-v-windows-10-dobavit-moy-kompyuter-na-rabochiy-stol.jpg"> 
+            <h4> Web design</h4>
+            <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.. <a class="service-description-link" href="http://goodnews1.com">Details...</a></p>
+			</div>
+		</li>
+        <li class="service-two"> 
+			<div class="service-container">
+				<img class="service-image" alt="image" src="https://st2.depositphotos.com/2498595/5606/v/950/depositphotos_56061863-stock-illustration-magnifier-flat-blue-simple-icon.jpg">
+            	<h4>Search optimization</h4>
+            	<p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.. <a class="service-description-link" href="http://goodnews2.com">Details...</a></p>
+			</div>
+		</li>
+        <li class="service-three"> 
+			<div class="service-container">
+				<img class="service-image" alt="image" src="https://cdn.pixabay.com/photo/2017/03/29/04/09/shopping-icon-2184065_960_720.png">
+            	<h4>Online shop</h4>
+            	<p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.. <a class="service-description-link" href="http://goodnews3.com">Details...</a></p>
+			</div>
+		</li>
+        <li class="service-four"> 
+			<div class="service-container">
+				<img class="service-image" alt="image" src="https://ru.seaicons.com/wp-content/uploads/2015/11/thumbs-up-icon.png">
+                <h4>Social media</h4>
+                <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.. <a class="service-description-link" href="http://goodnews4.com">Details...</a></p>
+			</div>
+		</li></ul>
+	</div>
+		
+<!--Portfolio-->
+	<div class="portfolio-container">
+		<div class="portfolio-head">
+			<h3 class="portfolio-head-name">Our Portfolio Awesome</h3>
+			<button class="portfolio-head-button">More Works</button>
+		</div>
+		<div class="spacer spacer-md"></div>
+		<div class="list-of-portfolio-container">
+			<ul class="list-of-portfolio">
+				<li class="list-of-portfolio-item">
+					<div class="list-of-portfolio-item-image"></div><button type="button" class="list-of-portfolio-item-button">Details</button>
+					<h4 class="list-of-portfolio-item-content">Lorem Ipsum</h4>
+					<p class="list-of-portfolio-item-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</li>
+				<li class="list-of-portfolio-item">
+					<div class="list-of-portfolio-item-image"></div><button type="button" class="list-of-portfolio-item-button">Details</button>
+					<h4 class="list-of-portfolio-item-content">Lorem Ipsum</h4>
+					<p class="list-of-portfolio-item-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</li>
+				<li class="list-of-portfolio-item">
+					<div class="list-of-portfolio-item-image"></div><button type="button" class="list-of-portfolio-item-button">Details</button>
+					<h4 class="list-of-portfolio-item-content">Lorem Ipsum</h4>
+					<p class="list-of-portfolio-item-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="what-we-offer-container">
+		<h2 class="what-we-offer-head">WHAT WE OFFER</h2>
+		<h3 class="what-we-offer-sub-head">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h3>
+		<div class="spacer spacer-md"></div>
+		<div class="row">
+			<ul class="list-of-services">
+				<li class="what-we-offer-item">
+					<h4 class="what-we-offer-item-head">Web Design</h4>
+					<p class="what-we-offer-item-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>
+					<button type="button" class="what-we-offer-item-button">Details...</button></p>
+				</li>
+				<li class="what-we-offer-item">
+					<h4 class="what-we-offer-item-head">Search Optimization</h4>
+					<p class="what-we-offer-item-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					<a href="#" class="what-we-offer-item-link">Details...</a></p>
+				</li>
+				<li class="what-we-offer-item">
+					<h4 class="what-we-offer-item-head">Online Shop</h4>
+					<p class="what-we-offer-item-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
+					<button type="button" class="what-we-offer-item-button what-we-offer-item-button-shadow">Details...</button></p>
+				</li>
+				<li class="what-we-offer-item">
+					<h4 class="what-we-offer-item-head">Social Media</h4>
+					<p class="what-we-offer-item-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					<a href="#" class="what-we-offer-item-link">>>></a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="quote-container">
+		<div class="quote">
+			<h3 class="quote-head">TESTIMONIALS</h3>
+			<div class="quote-text"><span class="quo">&ldquo;</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  <span class="quo">&rdquo;</span></div>
+		</div>
+		
+		
+		<div class="quote-author-container">
+			<div></div>
+			<div class="quote-author"> <cite>Doe Jones, CEO of the company</cite></div>
+			<div></div>
+		</div>
+
+		<div class="quote-image-container">
+			<div class="quote-image">
+				<img class="author-photo" alt="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy08cK8wogTcvUJYvty4hAPwvKxTIJEqneUkNc3r4CBLkroZyn">
+			</div>
+			<div class="quote-image">
+				<img class="author-photo" alt="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy08cK8wogTcvUJYvty4hAPwvKxTIJEqneUkNc3r4CBLkroZyn">
+			</div>
+
+			<div class="quote-image">
+				<img class="author-photo" alt="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy08cK8wogTcvUJYvty4hAPwvKxTIJEqneUkNc3r4CBLkroZyn">
+			</div>
+		</div>	
+	</div>
+
+	<footer class="footer">
+		
+		<div class="footer-section">
+			<h3>TWITTER FEEDS</h3>
+			<div class="footer-twit">
+				<div>Check out this perfect item</div>
+				<a href="#">https://www.lipsum.com/</a>
+				<div>2 weeks ago</div>
+			</div>
+		<hr>
+			<div class="footer-twit">
+				<div>Check out this perfect item</div>
+				<a href="#">https://www.lipsum.com/</a>
+				<div>2 weeks ago</div>	
+			</div>
+		<hr>
+			<div class="footer-twit">				
+				<div>Check out this perfect item</div>
+				<a href="#">https://www.lipsum.com/</a>
+				<div>2 weeks ago</div>
+			</div>
+		</div>
+
+		<div class="footer-section">
+			<h3>NEWSLETTER</h3>
+			<div class="footer-newsletter-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+		<hr>
+			<div class="footer-feedback">Your email address 
+				<input class="footer-sign-in" type="email" required>
+				<button class="footer-sign-in-button" type="submit">Sign up</button>
+			</div>
+		</div>
+				
+		<div class="footer-section">
+			<h3>RECENT PROJECTS</h3>
+			<div class="footer-recent-projects">
+				<div><img src="image6.png" alt="image" class="footer-recent-projects-image" /></div>
+				<div>Check out this perfect item <br>
+				<a class="footer-recent-projects-link" href="#">https://www.lipsum.com/</a> <br>
+				2 weeks ago</div>
+			</div>
+		<hr>
+			<div class="footer-recent-projects">
+				<div><img src="image6.png" alt="image" class="footer-recent-projects-image" /></div>
+				<div>Check out this perfect item <br>
+				<a class="footer-recent-projects-link" href="#">https://www.lipsum.com/</a> <br>
+				2 weeks ago</div>
+			</div>
+		<hr>
+			<div class="footer-recent-projects">
+				<div><img src="image6.png" alt="image" class="footer-recent-projects-image" /></div>
+				<div>Check out this perfect item <br>
+				<a class="footer-recent-projects-link" href="#">https://www.lipsum.com/</a> <br>
+				2 weeks ago</div>
+			</div>
+		</div>
+
+		<div class="footer-section">
+			<h3>CONTACT</h3>
+			<div class="footer-contact-phone"><ul class="footer-contacts"><li>1-000-000</li>
+			<li>1-000-000</li></ul></div>
+			<div class="footer-contact-sms"><ul class="footer-contacts"><li>1-000-000</li>
+				<li>1-000-000</li></ul></div>
+			<div class="footer-contact-email"><ul class="footer-contacts"><li>123@gmail.com</li>
+				<li>email@gmail.com</li></ul></div>
+		</div>
+	</footer>
+	</body>
+</html>
