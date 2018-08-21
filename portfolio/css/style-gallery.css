@@ -1,0 +1,177 @@
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Controls
+---------------------------------------------------------------------- */
+
+.control {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 2.7rem;
+    cursor: pointer;
+    font-size: 0.8em;
+    color: black;
+    transition: background 150ms;
+    border: none;
+    background-color: transparent;
+    border-right: 1px solid grey;
+}
+
+.control:hover {
+    background: #3f3f3f;
+    color: white;
+}
+
+.mixitup-control-active[data-filter]:after {
+    background: transparent;
+}
+.container, .controls {
+    width: 60%;
+    margin: 0 auto;
+}
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    border-top: 1px solid rgb(175, 175, 175);
+}
+.controls > .control {
+    padding: 5px;
+    border-right: 1px solid rgb(175, 175, 175);
+}
+/* Container
+---------------------------------------------------------------------- */
+
+.container {
+    padding: 1rem;
+    text-align: justify;
+    font-size: 0.1px;
+}
+.menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+  }
+  ul.menu > li {
+    float: left;
+    position: relative;
+  }
+  ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #2e7da5;
+    text-decoration: none;
+  }
+  ul.menu > li > a:hover {
+    background-color: rgb(230, 133, 109);
+  }
+  ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+  }
+  ul.submenu > li {
+    display: block;
+    z-index: 1000;
+  }
+  ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(230, 133, 109);
+    text-decoration: none;
+    z-index: 1000;
+  }
+  ul.submenu > li > a:hover {
+    background-color: #2e7da5;
+    z-index: 1000;
+  }
+  ul.menu > li:hover > ul.submenu {
+    display: block;
+    z-index: 1000;
+  }
+  button > img {
+    width: 30px;
+    height: 30px;
+  }
+  button {
+    border: none;
+    background-color: transparent;
+  }
+  button:hover {
+    background-color: rgb(230, 133, 109);
+  }
+  button:active >img {
+    width: 48px;
+    height: 48px;
+  }
+  
+
+.mix,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mix {
+    background: rgb(175, 175, 175);
+    border: 10px white solid;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    position: relative;
+    height: 175px;
+}
+.pagination-list {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 250px;
+}
+.pagination {
+    list-style: none;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+  }
+  .pagination:hover {
+    background-color: #2da7c5;
+  }
+  .pagination >a {
+    color: white;
+    text-decoration: none; 
+  }
+.prev {
+    padding-right: 10px;
+}
+
+.mix,
+.gap {
+    width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+}
+
+/* 3 Columns */
+
+
+
+
